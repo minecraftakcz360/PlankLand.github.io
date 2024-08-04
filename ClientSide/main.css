@@ -127,7 +127,7 @@ body
 
 .InfoBox:hover 
 {
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .Members 
@@ -142,30 +142,33 @@ body
 
 .MemberBox 
 {
-    margin-left: 20px;
-    margin-top: 30px;
-    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 45px;
+    font-size: 30px;
     background-color: rgb(27, 26, 85);
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    display: inline-block;
+    display: inline-flex;
     border-radius: 40px;
     transition: font-size 100ms;
 }
 
 .MemberBox:hover 
 {
-    font-size: 60px;
+    font-size: 35px;
     .AvatarImg {
-        width: 300px;
+        width: 250px;
+    }
+    .SocialImg {
+        width: 40px;
     }
 }
 
 .MemberName 
 {
-    display: inline-block;
+    display: block;
 }
 
 .AvatarImg 
@@ -174,12 +177,35 @@ body
     transition: width 100ms;
 }
 
-.AvatarImgDiv 
+.SocialImg
+{
+    width: 30px;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    transition: width 100ms;
+}
+
+.SocialButton
+{
+    background: none;
+    position: relative;
+    border: none;
+    top: 65%;
+}
+
+.SocialImg:hover 
+{
+    cursor: pointer;
+}
+
+
+.AvatarImgDiv
 {
     display: inline-block;
 }
 
-.SectionTitle 
+.SectionTitle
 {
     margin-top: 50px;
 }
