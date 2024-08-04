@@ -1,0 +1,184 @@
+p 
+{
+    font-family: Roboto, Arial;
+    color: rgb(146, 144, 195);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a
+{
+    font-family: Roboto, Arial;
+    color: rgb(146, 144, 195);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.PlankLandLogo,
+#HomeLink
+{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: rgb(83, 92, 145);
+}
+
+#HomeLink 
+{
+    cursor: pointer;
+}
+
+body 
+{
+    background-color: rgb(7, 15, 43);
+}
+
+.Bar
+{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ElectionsLink,
+#LinksLink,
+#PluginsLink,
+#MembersLink,
+#DynmapLink
+{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: rgb(180, 179, 209);
+    background: rgb(27, 26, 85);
+    border-radius: 100px;
+    transition: opacity, font-size 100ms;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#ElectionsLink:hover,
+#LinksLink:hover,
+#PluginsLink:hover,
+#MembersLink:hover, 
+#DynmapLink:hover
+{
+    opacity: 0.5;
+    font-size: 35px;
+}
+
+#ElectionsLink:active,
+#LinksLink:active,
+#PluginsLink:active,
+#MembersLink:active, 
+#DynmapLink:active
+{
+    opacity: 0.7;
+}
+
+.InfoSection 
+{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+.Info 
+{
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    text-align: center;
+}
+
+.InfoBox 
+{
+    background-color: rgb(27, 26, 85);
+    border-radius: 100px;
+    font-size: 35px;
+    padding-bottom: 35px;
+    transition: font-size 100ms;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.InfoTitle 
+{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    color: rgb(180, 179, 209);
+}
+
+.InfoBox:hover 
+{
+    font-size: 45px;
+}
+
+.Members 
+{
+    grid-template-columns: 1fr;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    display: grid;
+}
+
+.MemberBox 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(27, 26, 85);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    border-radius: 40px;
+    transition: font-size 100ms;
+}
+
+.MemberBox:hover 
+{
+    font-size: 60px;
+    .AvatarImg {
+        width: 300px;
+    }
+}
+
+.MemberName 
+{
+    display: inline-block;
+}
+
+.AvatarImg 
+{
+    width: 230px;
+    transition: width 100ms;
+}
+
+.AvatarImgDiv 
+{
+    display: inline-block;
+}
+
+.SectionTitle 
+{
+    margin-top: 50px;
+}
