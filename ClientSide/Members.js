@@ -34,15 +34,6 @@ const Members =
         MinName: "HODMONDAK",
     },
 
-    HODMONDAK: 
-    {
-        Name: document.getElementById("MliechmiName"),
-        DisButton: document.getElementById("MliechmiDis"),
-        MinButton: document.getElementById("MliechmiMin"),
-        DisName: "@liechmi",
-        MinName: "Rauded",
-    },
-
     Rauded: 
     {
         Name: document.getElementById("MRaudedName"),
@@ -50,15 +41,6 @@ const Members =
         MinButton: document.getElementById("MRaudedMin"),
         DisName: "@liechmi",
         MinName: "Rauded",
-    },
-
-    Mandle123: 
-    {
-        Name: document.getElementById("MMandle123Name"),
-        DisButton: document.getElementById("MMandle123Dis"),
-        MinButton: document.getElementById("MMandle123Min"),
-        DisName: "@mandlos123",
-        MinName: "Mandle123",
     },
 
     Mandle123: 
@@ -86,15 +68,6 @@ const Members =
         MinButton: document.getElementById("MsmajraMin"),
         DisName: "@prasecix",
         MinName: "smajra",
-    },
-
-    smajra: 
-    {
-        Name: document.getElementById("MNedr0SKName"),
-        DisButton: document.getElementById("MNedr0SKDis"),
-        MinButton: document.getElementById("MNedr0SKMin"),
-        DisName: "@justme1151",
-        MinName: "Nedr0SK",
     },
 
     MarkisCZ: 
